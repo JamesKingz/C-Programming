@@ -13,7 +13,7 @@ int main()
 
     if (min <= 1 && max <= 30) {
         for (i = min; i <= max; i++) {
-            printf("%d\n", y);
+            printf("%d\n", i);
         }
     } else {
         printf("Range must start at 1 or lower and end at 30 or higher.\n");
